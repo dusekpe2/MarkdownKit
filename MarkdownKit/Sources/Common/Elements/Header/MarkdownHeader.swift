@@ -42,8 +42,8 @@ open class MarkdownHeader: MarkdownLevelElement {
         }
         
         let paragraphStyle = NSMutableParagraphStyle()
-        paragraphStyle.minimumLineHeight = 30
-        paragraphStyle.maximumLineHeight = 30
+        paragraphStyle.minimumLineHeight = 24
+        paragraphStyle.maximumLineHeight = 24
         
         attributes[NSAttributedString.Key.paragraphStyle] = paragraphStyle
         return attributes
